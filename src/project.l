@@ -25,6 +25,10 @@
 "break"																										{return BREAK;}
 "struct"|"union"																							{return struct_const;}
 "return"																									{return RETURN;}
+"cin"                                                                                                                                                                                                           {return CIN;}                                                                        
+"cout"                                                                                                                                                                                                          {return COUT;}
+"true"                                                                                                                                                                                                          {return TRUE;}     
+"false"                                                                                                                                                                                                         {return FALSE;}
 "sizeof"																									{return SIZEOF;}
 "||" 																										{return or_const;}
 "&&"																										{return and_const;}
